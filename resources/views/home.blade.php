@@ -45,6 +45,13 @@
             </svg>
         </div>
 
+
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <ul>
+                <li><a href ={{route('about.index')}}>  <font color="aqua">關於本站</font></a></li>
+                <li><a href ={{route('news.index')}}>   <font color="aqua">最新消息</font></a></li>
+            </ul>
+        </div>
         <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div class="p-6">
